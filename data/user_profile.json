@@ -1,0 +1,14 @@
+{
+  "traveler_name": "Dana Ellison",
+  "home_airport": "CLT",
+  "seat_preference": "aisle",
+  "linked_card_ids": ["CARD-MV", "CARD-ME", "CARD-HC"],
+  "partner_accounts_held": [
+    { "partner_id": "P-KES", "member_number": "KF-4481207", "balance": 0 },
+    { "partner_id": "P-ORI", "member_number": "OP-2209618", "balance": 0 },
+    { "partner_id": "P-NOR", "member_number": "NV-7730154", "balance": 0 },
+    { "partner_id": "P-ARC", "member_number": "AH-5516032", "balance": 0 },
+    { "partner_id": "P-SUN", "member_number": "SW-3087741", "balance": 0 },
+    { "partner_id": "P-TAU", "member_number": "TM-6642290", "balance": 0 }
+  ]
+}

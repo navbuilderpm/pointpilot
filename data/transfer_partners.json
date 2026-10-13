@@ -1,0 +1,15 @@
+[
+  { "card_id": "CARD-MV", "partner_id": "P-KES", "partner_name": "Kestrel Airways FlightClub", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 0, "account_required": true },
+  { "card_id": "CARD-MV", "partner_id": "P-ORI", "partner_name": "Oriel Pacific Miles", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 24, "account_required": true },
+  { "card_id": "CARD-MV", "partner_id": "P-NOR", "partner_name": "Nordvik Air Points", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 48, "account_required": true },
+  { "card_id": "CARD-MV", "partner_id": "P-VEL", "partner_name": "Velora Airways Club", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 24, "account_required": true },
+  { "card_id": "CARD-MV", "partner_id": "P-TAU", "partner_name": "Tauro Air Millas", "transfer_ratio": 1.0, "min_transfer": 5000, "increment": 5000, "transfer_delay_hours": 72, "account_required": true },
+
+  { "card_id": "CARD-ME", "partner_id": "P-KES", "partner_name": "Kestrel Airways FlightClub", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 0, "account_required": true },
+  { "card_id": "CARD-ME", "partner_id": "P-SUN", "partner_name": "Sunward Airlines Rewards", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 12, "account_required": true },
+
+  { "card_id": "CARD-HC", "partner_id": "P-ORI", "partner_name": "Oriel Pacific Miles", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 24, "account_required": true },
+  { "card_id": "CARD-HC", "partner_id": "P-ARC", "partner_name": "Arcadia Airways Horizons", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 0, "account_required": true },
+  { "card_id": "CARD-HC", "partner_id": "P-SUN", "partner_name": "Sunward Airlines Rewards", "transfer_ratio": 0.8, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 12, "account_required": true },
+  { "card_id": "CARD-HC", "partner_id": "P-VEL", "partner_name": "Velora Airways Club", "transfer_ratio": 1.0, "min_transfer": 1000, "increment": 1000, "transfer_delay_hours": 24, "account_required": true }
+]

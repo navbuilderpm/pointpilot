@@ -1,0 +1,60 @@
+{
+  "_note": "Format target only. The route (CLT to ZRH) and itinerary IDs (EX-*) are illustrative and do not exist in the dataset. Never reuse these figures in a real answer.",
+
+  "example_ranked_with_flag": {
+    "STATUS": "OK",
+    "RECOMMENDATION": {
+      "rank": 1,
+      "best_value": true,
+      "itinerary_id": "EX-101",
+      "itinerary": "CLT 09:40 -> ZRH 07:55+1, 16h15m, 1 stop (BOS)",
+      "airline_cabin": "Kestrel Airways, business",
+      "points_required": 59200,
+      "surcharge_usd": 120.00,
+      "cents_per_point": 5.37,
+      "source_card": "CARD-MV",
+      "partner": "P-KES",
+      "points_to_transfer": 60000,
+      "balance_after_transfer": 150000
+    },
+    "RANKED_OPTIONS": [
+      { "rank": 1, "itinerary_id": "EX-101", "partner": "P-KES", "source_card": "CARD-MV", "points_required": 59200, "points_to_transfer": 60000, "surcharge_usd": 120.00, "cents_per_point": 5.37, "balance_after_transfer": 150000 },
+      { "rank": 2, "itinerary_id": "EX-102", "partner": "P-NOR", "source_card": "CARD-MV", "points_required": 75000, "points_to_transfer": 75000, "surcharge_usd": 95.00, "cents_per_point": 4.27, "balance_after_transfer": 135000 },
+      { "rank": 3, "itinerary_id": "EX-103", "partner": "P-ARC", "source_card": "CARD-HC", "points_required": 82500, "points_to_transfer": 83000, "surcharge_usd": 60.00, "cents_per_point": 3.75, "balance_after_transfer": 67000 }
+    ],
+    "EXCLUDED": [
+      { "itinerary_id": "EX-104", "partner": "P-SUN", "reason": "Cents-per-point unavailable — fare data missing", "rule": "RP-5, EP-4" }
+    ],
+    "ESCALATION": "none",
+    "GATE_DISCLOSURE": {
+      "source_card": "CARD-MV",
+      "partner": "P-KES",
+      "award_points_required": 59200,
+      "increment": 1000,
+      "points_leaving_card": 60000,
+      "residual_stranded_in_partner": 800,
+      "card_balance_after": 150000,
+      "cents_per_point_quoted": 5.37,
+      "cents_per_point_at_rounded_amount": 5.30,
+      "surcharge_charged_at_ticketing_usd": 120.00,
+      "transfer_delay_hours": 0,
+      "irreversible": true,
+      "approve_label": "Transfer 60,000 points and book for $120.00 — the transfer cannot be undone.",
+      "cancel_label": "Cancel, return to results — nothing will be transferred."
+    },
+    "WHY": "Ranked by RP-8 using RP-4 on fares for EX-101, EX-102, EX-103. CARD-MV chosen for EX-101 under RP-7 (tie at 1:1, larger remaining balance). EX-104 excluded under RP-5: no row in cash_fares.csv. Rounding from 59,200 to 60,000 degrades cents-per-point by 1.3 percent, inside the RP-9 threshold."
+  },
+
+  "example_zero_feasible_escalation": {
+    "STATUS": "REFUSED-ESCALATE",
+    "RECOMMENDATION": "none",
+    "RANKED_OPTIONS": [],
+    "EXCLUDED": [],
+    "ESCALATION": {
+      "trigger": "EP-1(a)",
+      "message": "No award seats matched CLT to ZRH in first class between Aug 12 and Aug 16. Nothing was transferred. Modify your search to try again."
+    },
+    "GATE_DISCLOSURE": "none",
+    "WHY": "Searched award inventory for CLT-ZRH, first, inside the stated window (RP-1). Zero rows matched, so EP-1(a) applies. Dates and airports were not widened."
+  }
+}

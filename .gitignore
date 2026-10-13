@@ -1,0 +1,12 @@
+# Allowlist: only the product is published. Everything else in this folder stays private.
+/*
+!/.gitignore
+!/index.html
+!/README.md
+!/data/
+!/policies/
+!/docs/
+# Course kit (never published)
+deploy-companion/
+# Local junk
+.DS_Store

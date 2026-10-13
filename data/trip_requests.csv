@@ -1,0 +1,15 @@
+request_id,origin,destinations,depart_date,depart_flex_days,trip_type,return_date,return_flex_days,cabin,scenario_after_transfer
+REQ-1001,CLT,NRT,2027-03-12,3,one_way,,,business,none
+REQ-1002,CLT,LHR,2027-04-20,2,one_way,,,business,none
+REQ-1003,CLT,FCO,2027-05-08,2,one_way,,,business,seat_gone
+REQ-1004,CLT,MIA,2027-02-14,1,one_way,,,economy,none
+REQ-1005,CLT,ICN,2027-06-02,2,one_way,,,business,none
+REQ-1006,CLT,CUN,2027-01-22,1,one_way,,,economy,none
+REQ-1007,CLT,SEA,2027-04-02,2,one_way,,,business,surcharge_up
+REQ-1008,CLT,HND|NRT,2027-10-05,2,one_way,,,first,none
+REQ-1009,CLT,SYD,2027-11-15,1,one_way,,,first,none
+REQ-1010,CLT,KEF,2027-03-01,1,one_way,,,economy,none
+REQ-1011,CLT,LHR,2027-07-10,3,one_way,,,economy,none
+REQ-1012,CLT,CDG,2027-09-18,2,one_way,,,business,none
+REQ-1013,CLT,BOS,2027-02-05,1,one_way,,,economy,none
+REQ-1014,CLT,LIS,2027-05-20,2,one_way,,,business,none

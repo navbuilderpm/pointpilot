@@ -1,0 +1,26 @@
+[
+  {
+    "card_id": "CARD-MV",
+    "issuer": "Meridian Bank",
+    "product_name": "Meridian Voyager Card",
+    "points_balance": 210000,
+    "currency_name": "Meridian Points",
+    "portal_redemption_rate": 1.0
+  },
+  {
+    "card_id": "CARD-ME",
+    "issuer": "Meridian Bank",
+    "product_name": "Meridian Everyday Plus",
+    "points_balance": 90000,
+    "currency_name": "Meridian Points",
+    "portal_redemption_rate": 1.0
+  },
+  {
+    "card_id": "CARD-HC",
+    "issuer": "Harbor Trust",
+    "product_name": "Harbor Compass Card",
+    "points_balance": 150000,
+    "currency_name": "Compass Points",
+    "portal_redemption_rate": 1.0
+  }
+]

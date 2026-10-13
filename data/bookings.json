@@ -1,0 +1,12 @@
+[
+  {
+    "booking_id": "BK-0001",
+    "itinerary_id": "IT-0917",
+    "partner_id": "P-KES",
+    "status": "completed",
+    "points_debited": 18000,
+    "surcharge_paid": 5.60,
+    "confirmation_number": "KX7Q2M",
+    "created_at": "2026-06-14T19:42:00"
+  }
+]
